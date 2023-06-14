@@ -31,7 +31,7 @@ const minDiffinBST = function(node) {
         prev = node.val;
 
         inOrder(node.right);
-    }
+    };
 
     inOrder(root);
 
