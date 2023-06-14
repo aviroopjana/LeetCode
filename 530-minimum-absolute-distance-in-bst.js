@@ -25,7 +25,7 @@ function getMinimumDistance(root) {
         if(!firstNodeVisited) {
             firstNodeVisited = true;
         } else {
-            minDiff = Math.min(minDiff, node - prev.val);
+            minDiff = Math.min(minDiff, node.val - prev);
         }
 
         prev = node.val;
